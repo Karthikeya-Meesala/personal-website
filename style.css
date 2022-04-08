@@ -8,7 +8,7 @@ background: radial-gradient(circle, rgba(252,220,220,1) 0%, rgba(255,255,255,1) 
   text-align: center;
 }
 .container h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 900;
   font-size: 30px;
   text-transform: uppercase;
@@ -42,7 +42,6 @@ font-family: 'PT Sans', sans-serif;
   margin-top: 50px;
 }
 .effect:nth-child(2n+1) {
-  background-color: #fff;
 }
 .effect:nth-child(2n+1) h2 {
   color: #212121;
@@ -105,6 +104,13 @@ font-family: 'PT Sans', sans-serif;
 }
 .effect.icons a:hover i {
   transform: scale(1.15);
-  text-shadow: 4px 0px 3px rgba(33, 33, 33, 0.3);
+  text-shadow: 4px 0px 3px rgba(105, 105, 105, 0.3);
   transition: all 0.2s linear 0.2s;
+}
+
+.photo {
+  width: auto;
+  height: 40%;
+  border-radius: 15%;
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
 }
