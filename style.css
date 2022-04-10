@@ -62,7 +62,6 @@ font-family: 'PT Sans', sans-serif;
   justify-content: center;
 }
 
-
 .effect a {
   text-decoration: none !important;
   width: 40px;
@@ -120,6 +119,6 @@ font-family: 'PT Sans', sans-serif;
   margin-right: auto;
   width: 50%;
   max-width: 350px;
-  border-radius: 15%;
+  border-radius: 25%;
   box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
 }
